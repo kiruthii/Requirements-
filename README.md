@@ -73,39 +73,6 @@ This JavaScript function simulates a bookstore's purchase process, including rem
 - Use operators (e.g., `+=`, `-=`) to handle stock updates and calculations.
 
 
-## Output
-
-The function should return an object with the following structure:
-
-```javascript
-{
-  bill: {
-    customerName: 'John Doe',
-    booksPurchased: [
-      { title: 'Book A', quantity: 1, price: 300, discount: 45, finalPrice: 255 },
-      { title: 'Book B', quantity: 1, price: 150, discount: 3, finalPrice: 147 }
-    ],
-    totalPrice: 402,
-    totalDiscount: 48
-  },
-  updatedStock: [
-    { id: 1, title: 'Book A', stock: 9 },
-    { id: 2, title: 'Book B', stock: 3 }
-  ],
-  updatedCustomerDetails: {
-    id: 101,
-    name: 'John Doe',
-    isExistingCustomer: true,
-    lastPurchase: {
-      date: '2024-11-26',
-      booksPurchased: ['Book A', 'Book B'],
-      totalAmount: 402
-    }
-  }
-}
-```
-
-
 
 ## Sample Execution
 
