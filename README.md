@@ -103,7 +103,7 @@ The function should return an object with the following structure:
     }
   }
 }
-
+```
 
 
 
@@ -142,6 +142,8 @@ const customerId = 101;        // Customer making the purchase
     }
   }
 }
+
+...
 
 
 
